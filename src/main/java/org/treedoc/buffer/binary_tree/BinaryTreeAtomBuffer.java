@@ -53,9 +53,10 @@ public class BinaryTreeAtomBuffer<A, D extends Comparable<D>> implements AtomBuf
 		for (var i = nodesInPath.size() - 1; i >= 0; i--) {
 			var p = nodesInPath.get(i);
 			var node = p.extractNode(treeDocPath.isSet(i), treeDocPath.disambiguatorAt(i));
-			if (node != null && node.isEligibleForGC()) {
-				p.deleteNode(treeDocPath.isSet(i), treeDocPath.disambiguatorAt(i));
+			if (node != null && !node.isEligibleForGC()) {
+				break;
 			}
+			p.deleteNode(treeDocPath.isSet(i), treeDocPath.disambiguatorAt(i));
 		}
 	}
 
