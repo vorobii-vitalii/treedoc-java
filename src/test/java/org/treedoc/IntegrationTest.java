@@ -1,8 +1,10 @@
 package org.treedoc;
 
 import org.junit.jupiter.api.Test;
+import org.treedoc.utils.Pair;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -47,7 +49,7 @@ public class IntegrationTest {
 	}
 
 	private void expectContent(List<Character> expectedContent) {
-		assertThat(treeDOC.getAtoms()).isEqualTo(expectedContent);
+		assertThat(treeDOC.getEntries().stream().map(Pair::second).collect(Collectors.toList())).isEqualTo(expectedContent);
 	}
 
 }

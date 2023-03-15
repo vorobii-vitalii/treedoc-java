@@ -3,6 +3,7 @@ package org.treedoc;
 import org.treedoc.buffer.AtomBuffer;
 import org.treedoc.path.TreeDocPath;
 import org.treedoc.path.TreeDocPathComparator;
+import org.treedoc.utils.Pair;
 
 import java.util.List;
 import java.util.Objects;
@@ -16,8 +17,8 @@ public class TreeDOCImpl<A, D extends Comparable<D>> implements TreeDOC<A, D> {
 	}
 
 	@Override
-	public List<A> getAtoms() {
-		return atomBuffer.getAtoms();
+	public List<Pair<TreeDocPath<D>, A>> getEntries() {
+		return atomBuffer.getEntries();
 	}
 
 	@Override

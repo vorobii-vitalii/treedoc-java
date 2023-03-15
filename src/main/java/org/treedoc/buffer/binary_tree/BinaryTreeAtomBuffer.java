@@ -2,6 +2,7 @@ package org.treedoc.buffer.binary_tree;
 
 import org.treedoc.buffer.AtomBuffer;
 import org.treedoc.path.TreeDocPath;
+import org.treedoc.utils.Pair;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -10,14 +11,14 @@ public class BinaryTreeAtomBuffer<A, D extends Comparable<D>> implements AtomBuf
 	private final TreeNode root = new TreeNode();
 
 	@Override
-	public List<A> getAtoms() {
-		List<A> atoms = new LinkedList<>();
+	public List<Pair<TreeDocPath<D>, A>> getEntries() {
+		List<Pair<TreeDocPath<D>, A>> entries = new LinkedList<>();
 		inOrder(root, node -> {
 			if (node.value != null) {
-				atoms.add(node.value);
+				entries.add(new Pair<>(node.path, node.value));
 			}
 		});
-		return atoms;
+		return entries;
 	}
 
 	@Override
@@ -31,6 +32,7 @@ public class BinaryTreeAtomBuffer<A, D extends Comparable<D>> implements AtomBuf
 			parent = parent.extractNode(treeDocPath.isSet(i), treeDocPath.disambiguatorAt(i));
 		}
 		parent.value = atom;
+		parent.path = treeDocPath;
 	}
 
 	@Override
@@ -45,6 +47,7 @@ public class BinaryTreeAtomBuffer<A, D extends Comparable<D>> implements AtomBuf
 			}
 			if (i == n - 1) {
 				node.value = null;
+				node.path = null;
 			}
 			nodesInPath.add(currentParent);
 			currentParent = node;
@@ -67,6 +70,7 @@ public class BinaryTreeAtomBuffer<A, D extends Comparable<D>> implements AtomBuf
 
 	private class TreeNode {
 		private A value;
+		private TreeDocPath<D> path;
 		private TreeNode left;
 		private TreeNode right;
 		private final NavigableMap<D, TreeNode> leftMap = new TreeMap<>();

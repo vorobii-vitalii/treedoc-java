@@ -7,6 +7,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.treedoc.buffer.AtomBuffer;
 import org.treedoc.path.TreeDocPath;
+import org.treedoc.utils.Pair;
 
 import java.util.List;
 
@@ -27,9 +28,11 @@ class TreeDOCImplTest {
 
 	@Test
 	void getAtoms() {
-		var atoms = List.of('A', 'B', 'C');
-		when(atomBuffer.getAtoms()).thenReturn(atoms);
-		assertThat(treeDOC.getAtoms()).isEqualTo(atoms);
+		var entries = List.of(
+						new Pair<>(TreeDocPath.<Integer>create(null).append(false, 1), 'A'),
+						new Pair<>(TreeDocPath.<Integer>create(null), 'B'));
+		when(atomBuffer.getEntries()).thenReturn(entries);
+		assertThat(treeDOC.getEntries()).isEqualTo(entries);
 	}
 
 	@Test

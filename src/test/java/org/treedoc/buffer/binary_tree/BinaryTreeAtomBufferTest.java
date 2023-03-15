@@ -2,10 +2,12 @@ package org.treedoc.buffer.binary_tree;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.treedoc.Pair;
 import org.treedoc.path.TreeDocPath;
+import org.treedoc.utils.Pair;
 
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -158,7 +160,9 @@ class BinaryTreeAtomBufferTest {
 				binaryTreeAtomBuffer.insert(modification.first(), modification.second());
 			}
 		}
-		assertThat(binaryTreeAtomBuffer.getAtoms()).isEqualTo(expectedAtomList);
+		assertThat(binaryTreeAtomBuffer.getEntries().stream().map(Pair::first).anyMatch(Objects::isNull)).isFalse();
+		assertThat(binaryTreeAtomBuffer.getEntries().stream().map(Pair::second).collect(Collectors.toList()))
+						.isEqualTo(expectedAtomList);
 		assertThat(binaryTreeAtomBuffer.isEmpty()).isEqualTo(expectedAtomList.isEmpty());
 	}
 
