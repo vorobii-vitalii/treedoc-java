@@ -59,19 +59,10 @@ class TreeDOCImplTest {
 
 	@Test
 	void insertBetweenGivenBothIdsNullAndBufferIsEmpty() {
-		when(atomBuffer.isEmpty()).thenReturn(true);
 		var path = treeDOC.insertBetween(null, null, 'A', DISAMBIGUATOR);
 		assertThat(path).isEqualTo(TreeDocPath.create(DISAMBIGUATOR));
 		verify(atomBuffer).insert(path, 'A');
 	}
-
-	@Test
-	void insertBetweenGivenBothIdsNullAndBufferIsNotEmpty() {
-		when(atomBuffer.isEmpty()).thenReturn(false);
-		assertThrows(IllegalArgumentException.class,
-						() -> treeDOC.insertBetween(null, null, 'A', DISAMBIGUATOR));
-	}
-
 	@Test
 	void insertBetweenGivenLeftIdentifierIsNotSpecified() {
 		var path = treeDOC.insertBetween(

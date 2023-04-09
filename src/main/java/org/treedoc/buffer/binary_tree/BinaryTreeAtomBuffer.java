@@ -63,11 +63,6 @@ public class BinaryTreeAtomBuffer<A, D extends Comparable<D>> implements AtomBuf
 		}
 	}
 
-	@Override
-	public boolean isEmpty() {
-		return root.isEligibleForGC();
-	}
-
 	private class TreeNode {
 		private A value;
 		private TreeDocPath<D> path;

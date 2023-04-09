@@ -48,11 +48,6 @@ public class TreeDOCImpl<A, D extends Comparable<D>> implements TreeDOC<A, D> {
 	) {
 		// Should only happen if and only if buffer is empty
 		if (leftTreePath == null && rightTreePath == null) {
-			if (!atomBuffer.isEmpty()) {
-				throw new IllegalArgumentException(
-								"Both left position and right position cannot be empty when atom buffer is not empty"
-				);
-			}
 			return TreeDocPath.create(disambiguator);
 		}
 		if (leftTreePath == null || rightTreePath == null) {

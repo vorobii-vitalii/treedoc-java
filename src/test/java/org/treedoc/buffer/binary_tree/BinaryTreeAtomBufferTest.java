@@ -163,7 +163,6 @@ class BinaryTreeAtomBufferTest {
 		assertThat(binaryTreeAtomBuffer.getEntries().stream().map(Pair::first).anyMatch(Objects::isNull)).isFalse();
 		assertThat(binaryTreeAtomBuffer.getEntries().stream().map(Pair::second).collect(Collectors.toList()))
 						.isEqualTo(expectedAtomList);
-		assertThat(binaryTreeAtomBuffer.isEmpty()).isEqualTo(expectedAtomList.isEmpty());
 	}
 
 }

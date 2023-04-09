@@ -14,5 +14,4 @@ public interface AtomBuffer<A, D extends Comparable<D>> {
 	List<Pair<TreeDocPath<D>, A>> getEntries();
 	void insert(TreeDocPath<D> treeDocPath, A atom);
 	void delete(TreeDocPath<D> treeDocPath);
-	boolean isEmpty();
 }
