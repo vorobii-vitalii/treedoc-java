@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ecba698-f7b9-41fb-a2c5-2a1c24a5fd5a" name="Changes" comment="Remove redundant check">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/treedoc/utils/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/treedoc/TreeDOC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/treedoc/TreeDOC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/treedoc/TreeDOCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/treedoc/TreeDOCImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/treedoc/buffer/AtomBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/treedoc/buffer/AtomBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/treedoc/buffer/binary_tree/BinaryTreeAtomBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/treedoc/buffer/binary_tree/BinaryTreeAtomBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/treedoc/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/treedoc/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/treedoc/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/treedoc/TreeDOCImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/treedoc/TreeDOCImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/treedoc/buffer/binary_tree/BinaryTreeAtomBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/treedoc/buffer/binary_tree/BinaryTreeAtomBufferTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="fzfu6oee" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MruNLH4BtTU1p0H60kU0JgOHhp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vitalii/IdeaProjects/treedoc-java/src/main/java/org/treedoc/doc_files&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.treedoc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii\IdeaProjects\treedoc-java\src\main\java\org\treedoc\doc_files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii\IdeaProjects\treedoc-java\src\main\java\org\treedoc\doc_files" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.treedoc" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.treedoc" />
+      <recent name="org.treedoc.path" />
+      <recent name="org.treedoc.buffer.binary_tree" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.java in treedoc-java">
+    <configuration name="All in treedoc-java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treedoc-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeAtomBufferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treedoc-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.treedoc.buffer.binary_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.treedoc.buffer.binary_tree" />
+      <option name="MAIN_CLASS_NAME" value="org.treedoc.buffer.binary_tree.BinaryTreeAtomBufferTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treedoc-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.treedoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.treedoc" />
+      <option name="MAIN_CLASS_NAME" value="org.treedoc.IntegrationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeDOCImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treedoc-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.treedoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.treedoc" />
+      <option name="MAIN_CLASS_NAME" value="org.treedoc.TreeDOCImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in treedoc-java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treedoc-java" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in treedoc-java" />
+        <item itemvalue="JUnit.BinaryTreeAtomBufferTest" />
+        <item itemvalue="JUnit.All in treedoc-java" />
+        <item itemvalue="JUnit.IntegrationTest.test" />
+        <item itemvalue="JUnit.TreeDOCImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ecba698-f7b9-41fb-a2c5-2a1c24a5fd5a" name="Changes" comment="" />
+      <created>1678537984081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678537984081</updated>
+      <workItem from="1678537985461" duration="26273000" />
+      <workItem from="1678619426266" duration="20603000" />
+      <workItem from="1678737325695" duration="834000" />
+      <workItem from="1678898600375" duration="257000" />
+      <workItem from="1678898882734" duration="478000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add README.md">
+      <created>1678642084935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678642084936</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add implementation">
+      <created>1678643528756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678643528756</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setup github action">
+      <created>1678643819491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678643819491</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix YAML file">
+      <created>1678643914411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678643914411</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Maven plugin for tests execution">
+      <created>1678644107865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678644107865</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Optimize GC">
+      <created>1678737475358</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678737475358</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Remove redundant check">
+      <created>1678737558530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678737558530</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add README.md" />
+    <MESSAGE value="Add implementation" />
+    <MESSAGE value="Setup github action" />
+    <MESSAGE value="Fix YAML file" />
+    <MESSAGE value="Add Maven plugin for tests execution" />
+    <MESSAGE value="Optimize GC" />
+    <MESSAGE value="Remove redundant check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove redundant check" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/treedoc/buffer/binary_tree/BinaryTreeAtomBufferTest.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/treedoc/TreeDOCImpl.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/treedoc/path/MutableTreeDocPathImpl.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/treedoc_java$BinaryTreeAtomBufferTest.ic" NAME="BinaryTreeAtomBufferTest Coverage Results" MODIFIED="1678574267947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.treedoc.buffer.binary_tree.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/treedoc_java$All_in_treedoc_java.ic" NAME="All in treedoc-java Coverage Results" MODIFIED="1678638491811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/treedoc_java$java_in_treedoc_java.ic" NAME="java in treedoc-java Coverage Results" MODIFIED="1678737440779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
